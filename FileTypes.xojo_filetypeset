@@ -1,0 +1,19 @@
+#tag FileTypeSet
+	#tag FileType
+		CodeName=ApplicationUndoEdit
+		DocIcon=UndoFlattenEdit2K22.xojo_resources;&h0
+		Extension=.rud
+		Flags=&h0
+		MacCreator=RBUD
+		MacType=RBUD
+		Name=application/UndoEdit
+		UTI=
+		UTIConformsTo=,public.data
+		Description=
+		MimeType=
+		Imported=True
+		HandlerRank=&h9
+		UTIPhysicalType=public.data
+	#tag EndFileType
+
+#tag EndFileTypeSet
