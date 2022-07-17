@@ -1,6 +1,6 @@
 #tag Menu
 Begin Menu Menu
-   Begin DesktopMenuItem UntitledMenu3
+   Begin DesktopMenuItem File
       SpecialMenu = 0
       Index = -2147483648
       Text = "File"
@@ -79,7 +79,7 @@ Begin Menu Menu
          AutoEnable = False
          Visible = True
       End
-      Begin DesktopQuitMenuItem FileQuit
+      Begin DesktopMenuItem FileQuit
          SpecialMenu = 0
          Index = -2147483648
          Text = "Quit"
@@ -99,15 +99,7 @@ Begin Menu Menu
          Visible = True
       End
    End
-   Begin DesktopMenuItem UntitledMenu6
-      SpecialMenu = 0
-      Index = -2147483648
-      Text = ""
-      AutoEnabled = False
-      AutoEnable = False
-      Visible = True
-   End
-   Begin DesktopMenuItem UntitledMenu0
+   Begin DesktopMenuItem Edit
       SpecialMenu = 0
       Index = -2147483648
       Text = "Edit"
@@ -221,23 +213,7 @@ Begin Menu Menu
       AutoEnabled = False
       AutoEnable = False
       Visible = True
-      Begin DesktopMenuItem WindowItem
-         SpecialMenu = 0
-         Index = 0
-         Text = "Not Open"
-         AutoEnabled = False
-         AutoEnable = False
-         Visible = True
-      End
-      Begin DesktopMenuItem UntitledMenu9
-         SpecialMenu = 0
-         Index = -2147483648
-         Text = ""
-         AutoEnabled = False
-         AutoEnable = False
-         Visible = True
-      End
-      Begin DesktopApplicationMenuItem AppleAbout
+      Begin DesktopMenuItem AppleAbout
          SpecialMenu = 0
          Index = -2147483648
          Text = "About"
@@ -245,22 +221,6 @@ Begin Menu Menu
          AutoEnable = False
          Visible = True
       End
-      Begin DesktopApplicationMenuItem UntitledMenu8
-         SpecialMenu = 0
-         Index = -2147483648
-         Text = ""
-         AutoEnabled = False
-         AutoEnable = False
-         Visible = True
-      End
-   End
-   Begin DesktopMenuItem UntitledMenu7
-      SpecialMenu = 0
-      Index = -2147483648
-      Text = ""
-      AutoEnabled = False
-      AutoEnable = False
-      Visible = True
    End
 End
 #tag EndMenu
